@@ -154,6 +154,9 @@
     <Content Include="img\mountain.png" />
     <Content Include="img\ski-person.png" />
     <Content Include="img\ski.jpg" />
+    <Content Include="img\Travel.jpeg" />
+    <Content Include="img\WebDevelopment.jpeg" />
+    <Content Include="img\WebDevelopmentTraining.jpeg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
