@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\DashBoardController.cs" />
+    <Compile Include="Controllers\DevelopmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -145,18 +146,47 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Dev\Development.css" />
     <Content Include="Content\ImageSlide.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\apple-touch-icon.png" />
+    <Content Include="img\clients\client-1.png" />
+    <Content Include="img\clients\client-2.png" />
+    <Content Include="img\clients\client-3.png" />
+    <Content Include="img\clients\client-4.png" />
+    <Content Include="img\clients\client-5.png" />
+    <Content Include="img\clients\client-6.png" />
+    <Content Include="img\cta-bg.jpg" />
     <Content Include="img\double-tail-spin.svg" />
     <Content Include="img\dreamstime_m_103202288-duotone.jpg" />
+    <Content Include="img\favicon.png" />
+    <Content Include="img\hero-img.png" />
     <Content Include="img\mountain.png" />
+    <Content Include="img\portfolio\portfolio-1.jpg" />
+    <Content Include="img\portfolio\portfolio-2.jpg" />
+    <Content Include="img\portfolio\portfolio-3.jpg" />
+    <Content Include="img\portfolio\portfolio-4.jpg" />
+    <Content Include="img\portfolio\portfolio-5.jpg" />
+    <Content Include="img\portfolio\portfolio-6.jpg" />
+    <Content Include="img\portfolio\portfolio-7.jpg" />
+    <Content Include="img\portfolio\portfolio-8.jpg" />
+    <Content Include="img\portfolio\portfolio-9.jpg" />
+    <Content Include="img\portfolio\portfolio-details-1.jpg" />
+    <Content Include="img\portfolio\portfolio-details-2.jpg" />
+    <Content Include="img\portfolio\portfolio-details-3.jpg" />
     <Content Include="img\ski-person.png" />
     <Content Include="img\ski.jpg" />
+    <Content Include="img\skills.png" />
+    <Content Include="img\team\team-1.jpg" />
+    <Content Include="img\team\team-2.jpg" />
+    <Content Include="img\team\team-3.jpg" />
+    <Content Include="img\team\team-4.jpg" />
     <Content Include="img\Travel.jpeg" />
     <Content Include="img\WebDevelopment.jpeg" />
     <Content Include="img\WebDevelopmentTraining.jpeg" />
+    <Content Include="img\why-us.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -186,6 +216,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\Dev\Development.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -212,9 +243,12 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_ImageSlide.cshtml" />
+    <Content Include="Views\Development\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\Training\" />
+    <Folder Include="Scripts\Travel\" />
     <Folder Include="Views\DashBoard\" />
   </ItemGroup>
   <ItemGroup>
