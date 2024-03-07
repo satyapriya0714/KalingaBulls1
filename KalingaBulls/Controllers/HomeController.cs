@@ -8,6 +8,7 @@ namespace KalingaBulls.Controllers
 {
     public class HomeController : Controller
     {
+       
         public ActionResult Index()
         {
             return View();
@@ -25,6 +26,12 @@ namespace KalingaBulls.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public JsonResult DisplayData()
+        {
+            string data = "return Json data";
+            return Json(data);
         }
     }
 }

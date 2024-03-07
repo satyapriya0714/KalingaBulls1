@@ -13,5 +13,10 @@ namespace KalingaBulls.Controllers
         {
             return View();
         }
+
+        public ActionResult Training()
+        {
+            return View();
+        }
     }
 }
